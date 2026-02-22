@@ -1,6 +1,9 @@
 #ifndef UTILS_H
 #define UTILS_H
 
-void printWelcome();
+namespace redis{
 
+void printWelcome();
+void startServer();
+}
 #endif

@@ -2,6 +2,7 @@
 
 int main(){
 
-    printWelcome();
+    redis::printWelcome();
+    redis::startServer();
     return 0;
 }
